@@ -365,7 +365,7 @@ if __name__ == "__main__":
    ```bash
    git add .
    git commit -m "Initial commit with complete multi-agent SEO blog generator"
-   git remote add origin https://github.com/your-username/multi-agent-seo-blog-generator.git
+   git remote add origin https://github.com/roar3691/multi-agent-seo-blog-generator.git
    git branch -M main
    git push -u origin main
    ```
