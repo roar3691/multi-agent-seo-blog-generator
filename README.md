@@ -30,31 +30,3 @@ The system is composed of five specialized agents:
    cd multi-agent-seo-blog-generator
 
 
-Install Dependencies:
-
-
-pip install -r requirements.txt
-Set Up Gemini API Key:
-Obtain an API key from Google Generative AI.
-Replace YOUR_GEMINI_API_KEY_HERE in multi_agent_seo_blog_generator.py with your actual key, or
-Set it as an environment variable:
-
-export GEMINI_API_KEY="your-actual-api-key"
-Execution
-Run the script to generate the blog:
-
-
-python multi_agent_seo_blog_generator.py
-Outputs will be saved in the output/ directory as blog.md (Markdown) and blog.html (HTML).
-Deliverables Included
-Source Code: multi_agent_seo_blog_generator.py (well-commented).
-Requirements: requirements.txt with all dependencies.
-Blog Post: Sample outputs in output/blog.md and output/blog.html.
-Documentation: This README with setup and usage instructions.
-Notes
-The output files are blog.html and blog.md, containing the SEO-optimized blog post in HTML and Markdown formats respectively.
-The system uses dynamic package installation to ensure dependencies are met.
-Generates approximately 2000-word blog posts.
-Includes error handling for API calls and file operations.
-Outputs are SEO-optimized with keywords and meta tags.
-Progress is logged to the console during execution.
