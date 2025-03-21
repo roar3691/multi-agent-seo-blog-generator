@@ -29,9 +29,8 @@ multi-agent-seo-blog-generator/
 ├── multi_agent_seo_blog_generator.py  # Main source code (well-commented)
 ├── requirements.txt                   # Dependencies list
 ├── README.md                         # This documentation
-├── output/                           # Directory for generated files
-│   ├── blog.md                       # Final blog post in Markdown format
-│   └── blog.html                     # Final blog post in HTML format
+├── blog.md                       # Final blog post in Markdown format
+├── blog.html                    # Final blog post in HTML format
 └── .gitignore                        # Git ignore file
 ```
 
