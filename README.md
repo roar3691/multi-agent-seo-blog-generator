@@ -123,9 +123,9 @@ except ModuleNotFoundError:
     from bs4 import BeautifulSoup
 
 # Configure APIs
-GEMINI_API_KEY = "AIzaSyBEh3tg2B2yaLUnayD660ZyiBNfOIITb6A"  # Your Gemini API key
-GOOGLE_API_KEY = "AIzaSyC_CcvkVLouD1oOmX0iLnFv8gtzyPMbtps"  # Your Google Custom Search API key
-SEARCH_ENGINE_ID = "e6da2fcb52c994349"  # Your Search Engine ID
+GEMINI_API_KEY = "GEMINI_API_KEY"  # Replace with Your Gemini API key
+GOOGLE_API_KEY = "GOOGLE_API_KEY"  # Replace with Your Google Custom Search API key
+SEARCH_ENGINE_ID = "SEARCH_ENGINE_ID"  # Replace with Your Search Engine ID
 
 try:
     genai.configure(api_key=GEMINI_API_KEY)  # Initialize the Gemini API client
